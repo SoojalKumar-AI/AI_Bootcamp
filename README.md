@@ -5,6 +5,34 @@ The labs cover Python programming, data analysis, machine learning fundamentals,
 industry-standard tools and libraries.
 
 ---
+# 📂 Repository Structure
+
+```text
+AI_Bootcamp/
+│
+├── Week_1/
+│   ├── day-1/
+│   ├── day-2/
+│   └── day-3/
+│
+├── Week_2/
+│   ├── day-1/
+│   ├── day-2/
+│   └── day-4/
+│
+└── README.md
+```
+
+# 🎯 Purpose
+
+This repository documents my hands-on learning journey throughout an AI Bootcamp. It contains laboratory exercises, coding practice, and practical implementations of concepts in Python, Data Analysis, Machine Learning, Deep Learning, and Data Visualization.
+
+The primary goal of this repository is to:
+
+- Practice AI and Data Science concepts through real-world lab exercises.
+- Build a strong foundation in Python and machine learning.
+- Document my progress and continuous learning.
+- Showcase practical skills and projects to recruiters and the developer community.
 
 ## 📅 Week 1
 
@@ -180,6 +208,46 @@ Performed additional practice using real-world datasets.
 
 ---
 
+---
+
+### 📌 Day 4 – FastAPI REST API Development
+
+#### To-Do List REST API
+
+Built a RESTful API using **FastAPI** to manage a simple To-Do List application without using a database.
+
+#### Activities Performed
+
+- Created a FastAPI project
+- Built RESTful API endpoints
+- Created new tasks
+- Retrieved all tasks
+- Retrieved a task by ID
+- Updated existing tasks
+- Deleted tasks
+- Stored data in an in-memory Python list
+- Implemented request validation using Pydantic
+- Tested APIs using Swagger UI
+- Tested API endpoints using Postman
+
+#### API Endpoints
+
+- **POST** `/todos` – Create a new task
+- **GET** `/todos` – Retrieve all tasks
+- **GET** `/todos/{id}` – Retrieve a task by ID
+- **PUT** `/todos/{id}` – Update an existing task
+- **DELETE** `/todos/{id}` – Delete a task
+
+**Skills Learned**
+
+- FastAPI
+- REST API Development
+- CRUD Operations
+- HTTP Methods (GET, POST, PUT, DELETE)
+- Pydantic Models
+- Request Validation
+- API Testing with Swagger UI
+- API Testing with Postman
 
 
 # 📚 Learning Outcomes
@@ -194,35 +262,13 @@ Throughout these labs, I gained practical experience in:
 - Machine Learning Fundamentals
 - Deep Learning Basics
 - Time Series Forecasting
+- REST API Development
+- FastAPI Framework
+- CRUD Operations
+- API Testing with Swagger UI
+- API Testing with Postman
 - Working with Real-World Datasets
 
----
-
-# 📂 Repository Structure
-
-```
-AI_Bootcamp/
-│
-├── Week_1/
-│   ├── Day_1/
-│   ├── Day_2/
-│   ├── Day_3/
-│ 
-│
-├── Week_2/
-│   ├── Day_1/
-│   ├── Day_2/
-│   
-│
-└── README.md
-```
-
----
-
-# 🎯 Purpose
-
-The purpose of this repository is to document my learning journey throughout the AI Bootcamp by completing hands-on laboratory exercises 
-and implementing AI, Machine Learning, and Data Analysis concepts using Python.
 
 ---
 
